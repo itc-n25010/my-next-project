@@ -24,7 +24,8 @@ export default function newsLink({ news }: Props) {
                 src={article.thumbnail.url}
                 alt=""
                 className={styles.image}
-                width={article.thumbnail.height}
+                width={article.thumbnail.width}
+                height={article.thumbnail.height}
               />
             ) : (
               <Image
