@@ -17,7 +17,7 @@ export default async function Page({ params }: Props) {
     <>
       <Article date={date} />
       <div className={styles.footer}>
-        <ButtonLink href="/nwes">ニュース一覧</ButtonLink>
+        <ButtonLink href="/news">ニュース一覧</ButtonLink>
       </div>
     </>
   );
